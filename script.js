@@ -111,7 +111,7 @@ function pause(){
   ctx.font = "30px Arial";
   ctx.fillStyle = "black";
   ctx.fillText("REPLAY", canvas.width/2 - 50, canvas.height/2 - 30);
-  ctx.font"20px Arial";
+  ctx.font = "20px Arial";
   ctx.fillText("click anywhere", canvas.width/2 - 50, canvas.heigth/2);
   ctx.restore();
   cancelAnimationFrame(handler);
